@@ -60,8 +60,15 @@ class _RandomWordsState extends State<RandomWords> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        brightness: Brightness.dark,
         title: Text("Random words generator"),
-        actions: [IconButton(icon: Icon(Icons.list), onPressed: _pushSaved)],
+        actions: [
+          IconButton(
+            icon: Icon(Icons.list),
+            onPressed: _pushSaved,
+            tooltip: 'Saved suggestions',
+          )
+        ],
       ),
       body: _buildSuggestions(),
     );
@@ -89,6 +96,7 @@ class _RandomWordsState extends State<RandomWords> {
 
           return Scaffold(
             appBar: AppBar(
+              brightness: Brightness.dark,
               title: Text('Saved Suggestions'),
             ),
             body: ListView(children: divided),

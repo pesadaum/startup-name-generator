@@ -9,7 +9,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: RandomWords(),
       theme: ThemeData(
-          primarySwatch: Colors.indigo, splashColor: Colors.indigo[100]),
+        primarySwatch: Colors.indigo,
+        splashColor: Colors.indigo[100],
+      ),
     );
   }
 }
