@@ -31,6 +31,7 @@ class _RandomWordsState extends State<RandomWords> {
               ? Text('Removed ${pair.asPascalCase} to saved suggestions :(')
               : Text('Added ${pair.asPascalCase} to saved suggestions :)'),
           backgroundColor: Colors.indigo,
+          duration: Duration(seconds: 1),
         );
         ScaffoldMessenger.of(context).showSnackBar(snackBar);
       },

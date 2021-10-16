@@ -11,7 +11,7 @@ Esse app foi desenvolvido com os 2 codelabs do google sobre flutter:
 
 ## Extras
 
-Além de todas as funcionalidades desenvolvidas no [codelab](), foram adicionados (vide *commits* );
+Além de todas as funcionalidades desenvolvidas no [codelab](https://codelabs.developers.google.com/codelabs/first-flutter-app-pt1), foram adicionados (vide *commits* ):
 
 - Snackbar indicando quando o usuário adiciona ou remove um item em seus favoritos
 - Tema da AppBar modificado
